@@ -1,0 +1,23 @@
+In the main program, add a polymorphic call to makeNoise()
+
+In the main program, add a polymorphic call to eatUnderYonderTree();
+
+In each Animal subclass, add an overriding implementation of
+   eatUnderYonderTree()
+
+Add an interface named LifeForm which declares the method
+   eatUnderYonderTree()
+
+Refactor the Animal class to inherit from LifeForm
+
+Move the implementation of eatUnderYonderTree() to the LifeForm interface
+   as a "default" method  (Java SE 8 and above)
+
+In the main program, when you print out the animals, if you 
+   meet a ScaryAnimal, print out "EEEEEEEEEEEEK!  A SCARY ANIMAL!"
+
+Refactor the Armadillo class to be a subclass of ScaryAnimal
+
+ 
+
+
