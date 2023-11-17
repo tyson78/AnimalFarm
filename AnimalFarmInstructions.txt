@@ -18,6 +18,8 @@ In the main program, when you print out the animals, if you
 
 Refactor the Armadillo class to be a subclass of ScaryAnimal
 
+Add some new animals to the farm!
+
  
 
 
