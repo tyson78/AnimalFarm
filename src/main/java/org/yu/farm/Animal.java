@@ -1,6 +1,6 @@
 package org.yu.farm;
 
-public abstract class Animal {
+public class Animal implements LifeForm {
 
     protected Animal(AnimalType species, String name) {
         this.species = species;
@@ -23,12 +23,17 @@ public abstract class Animal {
         this.name = name;
     }
 
+    @Override
+    public void makeNoise() {
+        System.out.println("Default: make noise in Animal class");
+    }
+
 
     // Methods
-    abstract public void makeNoise();
+    // abstract public void makeNoise();
 
-    public void eatUnderYonderTree() {
-        System.out.println("Munch Crunch Sluuuurp");
-    }
+//    public void eatUnderYonderTree() {
+//        System.out.println("Munch Crunch Sluuuurp");
+//    }
 
 }

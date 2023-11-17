@@ -1,5 +1,8 @@
 package org.yu.farm;
 
+import org.yu.farm.scary.ScaryAnimal;
+import org.yu.farm.scary.ScaryCat;
+
 import java.util.List;
 
 /*
@@ -23,11 +26,20 @@ public class MainProgram {
             System.out.printf("Animal: Hello, I'm %s the %s \n", a.getName(), a.getSpecies());
 
             // add a POLYMORPHIC call to makeNoise();
+            a.makeNoise();
 
             // add a POLYMORPHIC call to eatUnderYonderTree();
+            a.eatUnderYonderTree();
 
             if ( a instanceof Armadillo)
                 System.out.println("EEEEEK. AN ARMADILLO!");
+
+            if ( a instanceof ScaryCat) {
+                System.out.println("EEEEEEEEEEEEK!  A SCARY ANIMAL!");
+            }
+            if ( a instanceof ScaryAnimal) {
+                System.out.println("EEEEEEEEEEEEK!  A SCARY ANIMAL!");
+            }
 
             System.out.println("");
 

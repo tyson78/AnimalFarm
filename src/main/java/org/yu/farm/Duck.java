@@ -14,5 +14,9 @@ public class Duck extends Animal {
     public void makeNoise() {
         System.out.println("Quack!  Quack!");
     }
+    @Override
+    public void eatUnderYonderTree() {
+        System.out.println("DUCK is eating under yonder tree");
+    }
 
 }
