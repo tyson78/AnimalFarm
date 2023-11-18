@@ -4,6 +4,5 @@ public interface LifeForm {
     default void eatUnderYonderTree() {
         System.out.println("Munch Crunch Sluuuurp");
     }
-    void makeNoise();
 
 }

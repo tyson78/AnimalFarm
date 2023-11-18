@@ -34,8 +34,9 @@ public class AnimalFarm {
         animals.add(    new Jaguar("Bob the not so Bad")  );
         animals.add(    new ScaryCat("Zoe (Not really bad; just a little scary)"));
         animals.add(    new ScaryAnimal(AnimalType.HORSE, "I'm a SCARY HORSE"));
-        animals.add(    new Armadillo("I'm TUTU the ARMADILLO"));
-        animals.add(    new Horse("I'm RAINBOW the unicorn horse"));
+        animals.add(    new Armadillo("TUTU"));
+        animals.add(    new Horse("RAINBOW (the unicorn)"));
+        animals.add(    new Panda("Tian Tian"));
 
     }
 
